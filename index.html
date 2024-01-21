@@ -35,16 +35,16 @@
     }
 </style>
 </head>
-<body class="font-manrope px-7">
-    <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex flex-col lg:flex-row gap-8">
+<body class="font-manrope ">
+    <header class="container mx-auto px-7">
+        <div class="">
+            <div class="flex justify-between flex-col lg:flex-row gap-8">
             
               <div>
                 <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br>
                     tea time at The <br>Tea House</h1>
                 <p class="py-6 text-lg">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn bg-gradient-to-r from-[#FF8938] to-red-600 text-white ">Explore More</button>
               </div>
               <div class=" img">
                 <img src="images/banner.png" class="max-w-sm rounded-lg " />
@@ -60,11 +60,11 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto px-7">
         <!-- Featured tea Card container -->
         <section class="container mx-auto my-14">
             <div class="text-center space-y-5 ">
-                <h2 class="text-5xl font-extrabold">Our Featured Products</h2>
+                <h2 class=" text-4xl lg:text-5xl font-extrabold">Our Featured Products</h2>
                 <p class="text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
             <!--   Card  1  -->
@@ -111,7 +111,7 @@
             </div>
         </section>
         <!--Greate Tea-->
-        <section class="my-14">
+        <section class="my-14 ">
             <div class="flex flex-col lg:flex-row gap-9 items-center">
                 <div class="w-full grid grid-col md:grid-cols-2 gap-8 lg:flex-1">
                   <div class="h-36 w-full bg-gradient-to-r from-red-100 to-amber-300 rounded-xl"></div>
@@ -134,15 +134,16 @@
                 </div>
             </div>
         </section>
-        <section><!--  Super Client  -->
+        <!--  Super Client  -->
+        <section class="my-14">
         <div class="flex items-center flex-col lg:flex-row gap-8 bg-gradient-to-r from-[#FF8938] to-red-600 px-5 py-8 lg:px-10 lg:py-16 rounded-xl">
           <!-- Client Content  -->
-          <div class="space-y-4 lg:pr-16">
+          <div class="space-y-4 lg:pr-16 flex-1">
             <h1 class="text-4xl lg:text-5xl text-white font-extrabold">Meet Our Super<br> Clients</h1>
             <p class="text-base text-white font-medium text-color-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <button class="btn bg-white text-gradient-to-r from-[#FF8938] to-red-600">Show All</button>
           </div>
-          <div class="relative">
+          <div class="relative flex-1">
             <!--Client Review 1  -->
           <div class="relative h-auto z-10 mb-14 bg-white p-10 rounded-lg opacity-40">
             <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white" src="images/client.png" alt="">
@@ -155,7 +156,7 @@
             </div>
           </div>
           <!--Client Review  2  -->
-          <div class=" w-full lg:w-[380px] absolute top-36 z-20 lg:-left-14 h-auto bg-white p-10 rounded-lg">
+          <div class=" w-full lg:w-[420px] absolute top-36 z-20 lg:-left-16 h-auto bg-white p-10 rounded-lg">
             <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white" src="images/client.png" alt="">
             <p class="text-sm font-medium text-color-description">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
             <h2 class="text-lg text-[#1C1C1C] font-bold mt-5">Ilham Yuda</h2>
@@ -177,13 +178,100 @@
             </div>
           </div>
           </div>
-          
-
       </div>
-    </main>
-        </section>
-    <footer>
+    </section>
+    <!--   News & Events    -->
+    <section class="my-14">
+      <!-- News & Events content -->
+      <div class="text-center space-y-4">
+        <h1 class="text-4xl lg:text-5xl font-extrabold">News & Events</h1>
+        <p class="text-base	font-medium text-color-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
 
+      <!-- News & Events card -->
+      <div class="my-14 grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- card 1-->
+        <div class="card p-5 bg-base-100 shadow-xl">
+          <img class="rounded-xl" src="images/news-1.png"/>
+          <div class="space-y-3 mt-5">
+            <p class="text-sm	font-medium text-color-description">Feb 05, 2027</p>
+            <h2 class="text-xl text-[#1C1C1C] font-extrabold">Collecting 8 points for<br> discount</h2>
+            <p class="text-base	font-medium text-color-description">There are many variations of passages of Lorem Ipsum available.</p>
+            <a class="text-base font-bold text-[#1C1C1C] block " href="">Learn More</a>
+          </div>
+        </div>
+        <!-- card 2-->
+        <div class="card p-5 bg-base-100 shadow-xl">
+          <img class="rounded-xl" src="images/news-2.png"/>
+          <div class="space-y-3 mt-5">
+            <p class="text-sm	font-medium text-color-description">Feb 05, 2027</p>
+            <h2 class="text-xl text-[#1C1C1C] font-extrabold">Collecting 8 points for<br> discount</h2>
+            <p class="text-base	font-medium text-color-description">There are many variations of passages of Lorem Ipsum available.</p>
+            <a class="text-base font-bold text-[#1C1C1C] block " href="">Learn More</a>
+          </div>
+        </div>
+        <!-- card 3-->
+        <div class="card p-5 bg-base-100 shadow-xl">
+          <img class="rounded-xl" src="images/news-3.png"/>
+          <div class="space-y-3 mt-5">
+            <p class="text-sm	font-medium text-color-description">Feb 05, 2027</p>
+            <h2 class="text-xl text-[#1C1C1C] font-extrabold">Collecting 8 points for<br> discount</h2>
+            <p class="text-base	font-medium text-color-description">There are many variations of passages of Lorem Ipsum available.</p>
+            <a class="text-base font-bold text-[#1C1C1C] block " href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <!--  Footer Section -->
+    <footer class="bg-base-200">
+      <div class="flex justify-between flex-col gap-5 lg:flex-row items-center p-6 lg:px-[120px] lg:pt-14">
+        <img class="py-10" src="images/cup.png" alt="">
+        <div class="flex items-center gap-4">
+          <h3 class="text-[#494949] text-sm lg:text-base">Ready to get strated?</h3>
+          <button class="btn bg-gradient-to-r from-[#FF8938] to-red-600 text-white lg:text-xl text-base font-bold">Get Started</button>
+
+        </div>
+      </div>
+  <div class="footer grid lg:grid-cols-4 grid-cols-2 lg:p-12 p-5 px-20 lg:px-0 text-base-content  lg:px-[120px]">
+  <nav>
+    <header class="font-semibold text-[#1C1C1C]">Quick Links</header> 
+    <a class="link link-hover text-color-description block">Home</a>
+    <a class="link link-hover text-color-description block">About Us</a>
+    <a class="link link-hover text-color-description block">Insurance</a>
+    <a class="link link-hover text-color-description block">Privacy Policy</a>
+  </nav> 
+  <nav>
+    <header class="font-semibold text-[#1C1C1C]">Our Service</header> 
+    <a class="link link-hover text-color-description">Life Insurance</a>
+    <a class="link link-hover text-color-description">Car Insurance</a>
+    <a class="link link-hover text-color-description">Health Insurance</a>
+    <a class="link link-hover text-color-description">House Insurance</a>
+  </nav>
+ 
+
+      <nav>
+        <header class="font-semibold text-[#1C1C1C]">Help</header> 
+        <a class="link link-hover text-color-description">FAQs</a>
+        <a class="link link-hover text-color-description">Contact Us</a>
+      </nav> 
+      <form>
+        <header class="font-semibold text-[#1C1C1C]">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Subscribe to our<br> newsletter</span>
+          </label> 
+          <div class="">
+            <input type="text" placeholder="Email address" class="border-b-2 border-gray-600 bg-transparent py-3 px-1 w-[100px] lg:w-[200px]"/> 
+            <button class="btn btn-primary join-item rounded-full bg-gradient-to-r from-[#FF8938] to-red-600 border-none"><i class="fa-solid fa-greater-than"></i></button>
+          </div>
+        </fieldset>
+      </form>
+ 
+  </div>
+  <div>
+    <p class="py-14 text-base font-medium text-center">© 2027 UIDesign.to - All rights reserved.</p>
+  </div>
     </footer>
 </body>
 </html>
